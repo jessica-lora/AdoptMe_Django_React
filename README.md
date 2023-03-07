@@ -28,4 +28,8 @@ Go to adoptProject/settings.py and add `rest-framework`, `accounts`, `pets`, and
 
 Next, create the models...
 
+Accounts,
+Adoptions,
+Pets
+
 
