@@ -32,7 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'rest-framework',
+    'rest_framework',
     'accounts',
     'pets',
     'adoption',
