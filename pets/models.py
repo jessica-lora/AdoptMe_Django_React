@@ -1,15 +1,14 @@
 from django.db import models
 
-# Create your models here.
-
-class Pets(models.Model):
-    
-    animals = [("DOG", "Dog"), 
+animals = [("DOG", "Dog"), 
                ("CAT", "Cat"), 
                ("RODENT", "Rodent"), 
                ("BIRD", "Bird"), 
                ("REPTILE", "Reptile")]
-    
+# Create your models here.
+
+class Pets(models.Model):
+
     image = models.ImageField(upload_to="pets/", default="default/defaultdog.jpg")
     name = models.CharField(max_length=100)
     description = models.CharField(max_length=1000)
